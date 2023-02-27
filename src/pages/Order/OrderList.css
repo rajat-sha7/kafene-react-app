@@ -1,0 +1,62 @@
+.order-box{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 8% 4%;
+    margin-top: 100px;
+}
+.main-box{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    padding: 24px 0;
+}
+.filter-part{
+    width: 180px;
+
+    justify-content: center;
+    align-items: center;
+}
+.filter-list{
+    display: flex;
+    flex-direction: column;
+}
+.ckeck-box-list{
+    margin: 6px 0;
+    cursor: pointer;
+}
+.ckeck-box-list input{
+    margin-right: 18px;
+}
+
+.filter-list p{
+    margin:24px 0px ;
+    margin-right:20px;
+}
+
+.orders{
+    width: 100%;
+    border-collapse: collapse;
+}
+.orders tr{
+    vertical-align: middle;
+      height: 80px;
+}
+.order-lists th{
+    text-align: left;
+    padding: 12px 24px;
+    font-size: 14px;
+}
+.orders td{
+    background-color: #fff;
+    border-bottom: 4px solid #f6f7fb;
+    text-align: left;
+    padding: 12px 24px;
+    font-size: 14px;
+}
+.light-font{
+    color: #8c8c8c
+}
+.dark-font{
+    color: rgba(0,0,0,.8);
+    font-weight: 500;
+}

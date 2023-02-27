@@ -1,0 +1,128 @@
+.user-section{
+   padding: 100px;
+   background-color: #f6f7fb;
+   margin-top: 20px;
+}
+
+ .user-table{
+    width: 100%;
+ }
+
+
+ 
+
+
+
+
+.search-part{
+   
+   width: 100%;
+   height: auto;
+}
+.input-part{
+   padding-bottom:40px;
+   padding-left: 0px;
+}
+.input-part input{
+  width: 70%;
+  padding: 14px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.input-part input:focus{
+  outline: none;
+   border: none;
+   border-bottom: 1px solid black;
+ }
+
+.input-part button{
+   display: inline-block;
+   border-radius: 30px;
+   padding: 14px 36px;
+   font-size: 12px;
+   letter-spacing: 1px;
+   background-color: #20b883;
+   color: #fff;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   margin-top: 24px;
+   margin-left: 40px;
+  
+
+}
+
+
+table{
+   border-collapse: collapse;
+}
+
+.light-font{
+   color: #8c8c8c
+}
+.dark-font{
+   color: rgba(0,0,0,.8);
+   font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ table{
+    align-items: left;
+    width: 100%;
+    height: auto;
+    color: black;
+    border: none;
+    text-align:left;
+ }
+ .table-heading{
+    width: 100%;
+    /* background-color: blue; */
+     padding: 10px;
+    border: none;
+ }
+ .table-heading th{
+    padding: 10px;
+ }
+ .table-row{
+    width: 100%; 
+    background-color: white;
+    border-collapse: collapse;
+ }
+ tbody{
+    background-color: white;
+ }
+
+ .table-row td{
+    padding: 10px;
+ }
