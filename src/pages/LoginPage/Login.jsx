@@ -12,15 +12,15 @@ const Login = () => {
         password: '',
     })
 
-    const [authenticated, setAuthenticated] = useState(false);
+    // const [authenticated, setAuthenticated] = useState(false);
 
 
-    useEffect(() => {
-        const token = sessionStorage.getItem('authToken');
-        if (token) {
-          setAuthenticated(true);
-        }
-      }, []);
+    // useEffect(() => {
+    //     const token = sessionStorage.getItem('authToken');
+    //     if (token) {
+    //       setAuthenticated(true);
+    //     }
+    //   }, []);
 
 
 
@@ -43,7 +43,7 @@ const Login = () => {
             alert(`Login Successful...${inputValue.email}`)
           
                 navigate('/order')
-                setAuthenticated(true);
+                // setAuthenticated(true);
               
        
         } else {
